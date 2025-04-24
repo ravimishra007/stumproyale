@@ -24,7 +24,12 @@ const userSchema = new mongoose.Schema<IUser>({
       message: props => `${props.value} is not a valid Indian phone number!`
     }
   },
-  website_name: "https://www.stumproyale.com/",
+  website_name: {
+    type: String,
+    trim: true,
+    default: "https://www.stumproyale.com/"
+  },
+  
   verificationTime: {
     type: Date,
     required: true,
