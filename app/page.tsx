@@ -332,7 +332,7 @@ export default function Home() {
                     </motion.div>
                     
                     <motion.h1 
-                      className="text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-tight"
+                      className="text-4xl sm:text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-tight"
                       initial={{ opacity: 0, y: 30 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
@@ -354,7 +354,7 @@ export default function Home() {
                   </div>
 
                   <motion.div 
-                    className="flex flex-wrap gap-4"
+                    className="hidden md:flex flex-wrap gap-4 "
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
