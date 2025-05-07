@@ -130,9 +130,10 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-gray-600 dark:text-gray-400 mb-6 md:mb-0 text-center md:text-left">
               <p>© {new Date().getFullYear()} StumpRoyale. All rights reserved.</p>
-              <p className="mt-1 text-xs">
-                The game involves an element of financial risk and may be addictive. Please play responsibly.
+              <p className="mt-1 text-xs italic">
+                <span className="font-bold">State-Specific Disclaimer:</span> Daily Fantasy Sports is not allowed in the following states: Andhra Pradesh, Assam, Nagaland, Orissa, Sikkim, and Telangana. Ensure you comply with your local laws before engaging.
               </p>
+            </div>
             </div>
             
             <div className="flex space-x-3 sm:space-x-4">
