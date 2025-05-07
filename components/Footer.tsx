@@ -12,10 +12,8 @@ import {
   MapPinIcon,
   TrophyIcon,
   ShieldIcon,
-  DollarSignIcon,
   HelpCircleIcon,
   InfoIcon,
-  BookIcon
 } from "lucide-react";
 
 export default function Footer() {
@@ -136,23 +134,7 @@ export default function Footer() {
             </div>
             </div>
             
-            <div className="flex space-x-3 sm:space-x-4">
-              <Link 
-                href="#"
-                className="px-2 sm:px-3 py-2 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 text-xs font-medium flex items-center space-x-1 hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors"
-              >
-                <DollarSignIcon size={14} className="mr-1 sm:mr-0" />
-                <span className="hidden sm:inline">Deposit</span>
-              </Link>
-              
-              <Link 
-                href="#"
-                className="px-2 sm:px-3 py-2 rounded bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-medium flex items-center space-x-1 hover:bg-green-200 dark:hover:bg-green-900/50 transition-colors"
-              >
-                <BookIcon size={14} className="mr-1 sm:mr-0" />
-                <span className="hidden sm:inline">Rules</span>
-              </Link>
-            </div>
+            
           </div>
           
           <div className="flex flex-col sm:flex-row justify-center sm:justify-start items-center mt-6 text-xs text-gray-500 dark:text-gray-500 space-y-3 sm:space-y-0 sm:space-x-6">
@@ -170,7 +152,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
     </footer>
   );
 } 
